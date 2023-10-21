@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="index.css">  
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="hospedajes.html">Hospedajes</a></li>
+                <li><a href="visitas_actividades.html">Visitas y Actividades</a></li>
+                <li><a href="entretenimiento.html">Entretenimiento</a></li>
+                <li><a href="form.html">Contáctanos</a></li>
+            </ul>
+        </nav>
+    </head>
+    <body>
+        <main>
+            <form action="mailto:tucorreoelectronico@correo.com" method="post">
+                <div>
+                    <label for="usuario"><strong>Usuario:</strong></label>
+                    <input type="text" name="usuario" id="">
+                </div>
+                <div>
+                    <label for="email"><strong>Email:</strong></label>
+                    <input type="email" name="email" id="">   
+                </div>
+                <div>
+                    <label for="genero"><strong>Genero:</strong></label>
+                    
+                    <input type="radio" name="genero" id="femenino" value="f">
+                    <label for="femenino"><strong>Femenino</strong></label>
+
+                    <input type="radio" name="genero" id="mascuino" value="m">
+                    <label for="masculino"><strong>Masculino</strong></label>
+                </div>
+                <div>
+                   <label for="consulta"><strong>Consultas:</strong></label>
+                    <textarea name="consulta" id="" cols="30" rows="10"></textarea> 
+                </div>
+                <div>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Borrar</button>
+                </div>
+            </form>
+        </main>    
+    </body>
+</html>

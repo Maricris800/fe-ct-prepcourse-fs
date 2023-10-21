@@ -1,0 +1,90 @@
+body {
+    
+    background-color: lightskyblue;
+    font-family: sans-serif;
+}
+  
+h1 {
+    color: #000000;
+    font-size: 40px;
+    text-align: center;
+}
+  
+.img-container {
+    text-align: center;            
+}
+  
+nav {
+    background-color: #000000;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+    
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+    
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+    
+nav a:hover {
+    color: #ff0000;
+}
+
+form {
+    padding: 20px;
+}
+  
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+  
+input, textarea {
+    width: 50%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+button:hover {
+    background-color: red;
+}
+
+  /* Estilos adicionales para el formulario */
+  
+.genero {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+  
+#femenino,
+#masculino {
+    margin-right: 10px;
+}
